@@ -1,0 +1,477 @@
+
+/* HEADER */
+header {
+  padding: 0px;
+  margin: 0px;
+}
+section.header ul {
+  list-style-type: none;
+}
+
+section.header ul.phone_header p {
+  font-size: 30px;
+}
+
+section.header p.phone {
+  text-align: right;
+  color: #007ac3;
+}
+
+section.header ul.phone_header i, a {
+  padding: 10px;
+}
+
+section.header ul.phone_header a:link, a:visited, a:active {
+  color: #007ac3;
+}
+
+section.header ul.phone_header a:hover {
+  color: lightblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section.header img {
+  padding: 10px!important;
+  margin: 10px!important;
+  max-height:500px;
+  max-width: 500px;
+}
+
+section.header ul.phone_header {
+  padding: 10px!important;
+  margin: 10px!important;
+  display: inline;
+}
+
+@media only screen and (max-width: 998px) {
+  section.header p.phone {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  section.header img {
+    max-height:100%;
+    max-width: 100%;
+
+  }
+}
+
+/*Banner Section */
+
+
+
+
+
+section.banner {
+  background-color: black;
+  height: 650px;
+  width: 100%;
+}
+
+section.banner div.text{
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section.banner img {
+  width: 100%;
+}
+
+section.banner h2.movers {
+  font-size: 30px;
+  text-shadow: rgb(0, 122, 195) 2px 2px 2px;
+  font-family: "open sans";
+  font-style: italic;
+  color: white;
+  padding-top: 10%;
+}
+
+section.banner h2, button, p.center, li{
+  text-align: center;
+}
+
+section.banner h2.line {
+  color: #007ac3 !important;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+  font-family: georgia;
+}
+
+section.banner button {
+  background-color: white !important;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #007ac3;
+  padding: 0px !important;
+  margin: 0px !important;
+  text-align: right;
+}
+
+section.banner p.red a.red {
+  color: red !important;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+section.banner p.center {
+  padding: 8px;
+}
+
+section.banner ul {
+  padding-top: 20px;
+  color: white !important;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+section.banner li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section.banner i.fa-check-circle {
+  padding-right: 10px;
+}
+
+section.banner li {
+  padding-top: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  section.banner p.center, h2, ul{
+    text-align: center;
+  }
+}
+
+
+
+
+/* Section Our Services*/
+
+section.our_services div.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section.our_services child.box {
+  background-color: #007ac3 !important;
+  height: 500px;
+  width: 100px;
+  margin: auto;
+}
+
+section.our_services h2.head {
+  color: #007ac3;
+  padding: 18px;
+  margin: 8px;
+  padding-bottom: 100px !important;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+section.our_services h2.jumbo {
+  padding-top: 60px !important;
+  font-size: 26px;
+}
+
+section.our_services .jumbotron {
+  background-color: #007ac3 !important;
+  height: 100%;
+  margin-top:50px !important; /* push the wrap down a bit. You might not need this */
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 500px;
+}
+
+section.our_services img {
+  padding: 0px;
+  max-width: 100%;
+  max-height: 225px;
+  height: auto;
+  margin-top:-50px !important;
+  position:absolute !important;
+  transform: translate(-50%,-50%) !important;
+  left: 50% !important;
+  border-style: solid;
+  border-width: 9px;
+  border-color: white;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.our_services .white {
+  color: white !important;
+}
+
+section.our_services p {
+  padding: 0px !important;
+}
+
+
+
+
+
+
+
+
+section.our_servicestest {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section.our_servicestest img {
+  padding: 0px;
+  max-width: 100%;
+  max-height: 225px;
+  height: auto;
+  position: absolute !important;
+  transform: translate(15%,-50%) !important;
+  border-style: solid;
+  border-width: 9px;
+  border-color: white;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section.our_servicestest ul.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+section.our_servicestest h2 {
+  padding-top: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section.our_servicestest p {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 903px) {
+  section.our_servicestest ul.flex-container {
+    flex-direction: column;
+  }
+}
+
+section.our_servicestest li.flex-item{
+  background-color: black;
+  padding: 5px;
+  width: 300px;
+  height: 450px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+
+  background-color: #007ac3 !important;
+  margin-top:200px !important; /* push the wrap down a bit. You might not need this */
+
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 903px) {
+  section.our_servicestest li.flex-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Section Why Choose */
+section.why_choose {
+  background-color: black;
+  height: 530px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  section.why_choose {
+    height: 850px;
+  }
+}
+
+section.why_choose h2.choose {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 60px;
+  padding: 15px;
+}
+
+section.why_choose h3, p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section.why_choose i {
+  padding: 10px;
+}
+
+section.why_choose div.left {
+  text-align: left;
+}
+
+section.why_choose div.right {
+  text-align: right;
+}
+
+section.why_choose p.phone {
+  text-align: center;
+  font-size: 30px;
+  color: #007ac3;
+  padding: 10px;
+}
+
+section.why_choose p.phone a:hover{
+  color: lightblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  section.why_choose div.left{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  section.why_choose div.right{
+    text-align: center;
+  }
+}
+
+
+/* Section Testimonial */
+section.testimonials h2 {
+  text-align: center;
+  color: #007ac3;
+  font-size: 42px;
+  padding: 20px;
+}
+
+section.testimonials div.background {
+  background-color: #007ac3;
+}
+
+section.testimonials h3 {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+section.testimonials img {
+  padding: 0px;
+  max-width: 100%;
+  max-height: 225px;
+  border-style: solid;
+  border-width: 9px;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.testimonials p.testimonial {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+section.testimonials p.name1 {
+  text-align: right;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  section.testimonials p.name1 {
+    display: none;
+  }
+}
+
+section.testimonials p.name2 {
+  text-align: right;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  section.testimonials p.name2 {
+    display: none
+  }
+}
+
+/* Section Footer */
+section.footer div.background {
+  background-color: black;
+}
+
+section.footer h2 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  color: #007ac3 !important;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+  font-family: georgia;
+}
+
+section.footer h3 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: rgb(0, 122, 195) 2px 2px 2px;
+  font-family: "open sans";
+  font-style: italic;
+  padding: 15px;
+}
+
+section.footer button {
+  background-color: red !important;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #007ac3;
+  text-align: right;
+  margin-bottom: 120px;
+}
+
+section.footer p.quote {
+  color: white;
+  font-size: 24px;
+}
